@@ -1,2 +1,2 @@
 # nodejs-send-email
-google cloud function
+Sample google cloud function for sending email from REST call
