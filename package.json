@@ -9,5 +9,8 @@
     "dotenv": "^5.0.0",
     "nodemailer": "^4.4.2",
     "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "express": "^4.16.2"
   }
 }
