@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 app.post('/wbss-send-msg', (req, res) => {
 
-    fun.helloWorld(req, res)
+    fun.send(req, res)
 
 })
 

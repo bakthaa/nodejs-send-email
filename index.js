@@ -14,7 +14,7 @@ const mailler = new Mailler(process.env);
  * @param {!Object} req Cloud Function request context.
  * @param {!Object} res Cloud Function response context.
  */
-exports.helloWorld = (req, res) => {
+exports.send = (req, res) => {
 
   const randNo = randNum();
   console.log(randNo, 'Inbound :', req.connection.remoteAddress);
